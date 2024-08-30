@@ -1,4 +1,4 @@
-# Flight Booking Landing Page
+--------------------------------------# Flight Booking Landing Page-----------------------------------------
 
 A responsive and interactive flight booking landing page built with HTML, CSS, and JavaScript. This project showcases my skills in front-end web development and is designed to provide users with a seamless and engaging experience while booking flights.
 
@@ -24,9 +24,39 @@ Engaging Visuals: Uses high-quality images and a clean, modern design to create 
 
 ## 🎥 Demo
 
-Check out the live demo of the project here: [Live Demo Link](#) *(Replace with your link if hosted online)*
+Check out the live demo of the project here: https://www.linkedin.com/posts/amrutha-e_webdevelopment-html-css-activity-7234564393861050368-CBPJ?utm_source=share&utm_medium=member_desktop
 
 ## 🛠️ Installation
+
+----------# Web Development Portfolio-------------------------------------------------------
+
+Welcome to my web development portfolio! This repository showcases my skills and projects in web development, highlighting my proficiency in HTML, CSS, JavaScript, and other technologies.
+
+## About the Portfolio
+
+This portfolio contains a collection of projects that I have developed to demonstrate my expertise and creativity in web development. Each project is designed to showcase different skills, including front-end development, user experience design, and responsive layouts.
+
+## Features
+
+- **Interactive Projects**: A variety of web applications that demonstrate my skills in JavaScript, CSS animations, and responsive design.
+- **Creative Animations**: Engaging animations that enhance user interaction and experience.
+- **Responsive Design**: All projects are designed to be mobile-friendly and work seamlessly across different devices.
+- **Clean and Modern Design**: Focus on modern web design principles with a clean, user-friendly interface.
+
+## Technologies Used
+
+- **HTML5**: Structure and content of the web pages.
+- **CSS3**: Styling, animations, and layout design.
+- **JavaScript**: Interactive elements and functionality.
+- **Other Tools**: Additional libraries or frameworks (if any, e.g., Bootstrap, jQuery).
+
+
+
+## How to View the Portfolio
+
+You can view the portfolio by visiting my GitHub Pages site or by cloning this repository and opening the `index.html` file in your web browser.
+
+
 
 To run this project locally, follow these steps:
 
