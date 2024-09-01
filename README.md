@@ -57,9 +57,35 @@ This portfolio contains a collection of projects that I have developed to demons
 You can view the portfolio by visiting my GitHub Pages site or by cloning this repository and opening the `index.html` file in your web browser.
 
 
-
 To run this project locally, follow these steps:
 
 Clone the repository:
    ```bash
    git clone https://github.com/AmruthaMoulya/flight-booking-landing-page.git
+
+
+--------------------------------------------------------------# Simple Calculator------------------------------------------------------------------------------------------------------------------
+
+A simple calculator built using HTML, CSS, and JavaScript. This project was created as part of a task with Codsoft to enhance skills in front-end development, specifically focusing on creating interactive and user-friendly web applications.
+
+## Features
+
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Clean and intuitive user interface inspired by traditional calculator design.
+- Responsive layout that works on both desktop and mobile devices.
+- Real-time calculations with immediate results display.
+
+## Technologies Used
+
+HTML: Markup structure for the calculator.
+CSS: Styling for the calculator interface.
+JavaScript: Logic for handling calculations and user interactions.
+
+## Installation
+
+To run this calculator locally on your machine, follow these steps:
+
+   git clone https://github.com/AmruthaMoulya/simple-calculator.git
+
+For Demo click here:https://www.linkedin.com/posts/amrutha-e_webdevelopment-javascript-html-activity-7236042103045115904-wdud?utm_source=share&utm_medium=member_desktop
+
