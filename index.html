@@ -2,96 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amrutha's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Amrutha's Portfolio</div>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main Content Section -->
-    <div class="main-content">
-        <!-- About Me Section (Profile and About Me First) -->
-        <section id="about" class="about">
-            <img src="wp.webp" alt="Profile Picture" class="profile-pic">
-            <h1>About Me</h1>
-            <p>Welcome to my portfolio! I am Amrutha, a passionate web developer with experience in HTML, CSS, JavaScript, and Java. I enjoy building dynamic and responsive web applications.</p>
-        </section>
-
-        <!-- Projects Section (Second) -->
-        <section id="projects" class="projects">
-            <h1>Projects</h1>
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="project1.png" alt="Project 1" class="project-image">
-                    
-                    <div class="text">Project 1: Sleep disorders are conditions that disrupt normal sleep patterns, affecting health and well-being. Common types include insomnia, where falling or staying asleep is difficult; sleep apnea, which involves breathing interruptions during sleep; and narcolepsy, characterized by excessive daytime sleepiness and sudden sleep attacks. Restless Legs Syndrome causes uncomfortable leg sensations and urges to move, often disrupting sleep. Circadian Rhythm Disorders affect the body’s internal clock, leading to poor sleep quality. </div>
-                </div>
-                <div class="mySlides fade">
-                    <img src="2.png" alt="Project 2" class="project-image">
-
-                    <div class="text">Project 2: Polls are tools used to collect opinions or feedback from a group of people on a specific topic. They are often used in surveys, research, and decision-making processes. Polls can be conducted via various methods, including online platforms, phone calls, or in-person interviews. They typically present respondents with a set of predefined options or questions to choose from. Poll results are analyzed to gauge public opinion, preferences, or trends.</div>
-                </div>
-                <div class="mySlides fade">
-                    <img src="3.png" alt="Project 3" class="project-image">
-
-                    <div class="text">Project 3: Game Objective: The player controls a ball that drops from the top of the screen, aiming to navigate through obstacles or collect items while avoiding hazards.
-
-                        Graphics Rendering: The game uses 2D graphics to create the ball, background, obstacles, and other elements. Graphics libraries or frameworks (like SDL, Pygame, or Java’s AWT</div>
-                </div>
-                <!-- Add more slides as needed -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-        </section>
-
-        <!-- Skills Section (Third) -->
-        <section id="skills" class="skills">
-            <h1 class="blink-text">Skills</h1>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <!-- Add more skills as needed -->
-            </ul>
-        </section>
-    </div>
-
-    <!-- Contact Details Section (Last) -->
-    <section id="contact" class="contact">
-        <h1 class="blink-text">Contact Me</h1>
-        <div class="contact-details">
-            <p>Email: amrutha@example.com</p>
-            <p>Phone: +123-456-7890</p>
-            <button onclick="showPopup()">Click me for a surprise!</button>
-            <div id="popup" class="popup">
-                <span class="popuptext" id="myPopup">Hello! Thank you for visiting my portfolio.</span>
-            </div>
-            <form id="contactForm" class="contact-form">
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+    <div class="calculator">
+        <input type="text" id="display" disabled value="0">
+        <div class="buttons">
+            <button onclick="press(7)">7</button>
+            <button onclick="press(8)">8</button>
+            <button onclick="press(9)">9</button>
+            <button onclick="press('+')">+</button>
+            <button onclick="press(4)">4</button>
+            <button onclick="press(5)">5</button>
+            <button onclick="press(6)">6</button>
+            <button onclick="press('-')">-</button>
+            <button onclick="press(1)">1</button>
+            <button onclick="press(2)">2</button>
+            <button onclick="press(3)">3</button>
+            <button onclick="press('*')">&times;</button> <!-- Multiplication -->
+            <button onclick="press(0)">0</button>
+            <button onclick="press('/')">÷</button> <!-- Division -->
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="calculate()">=</button>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Amrutha. All rights reserved.</p>
-    </footer>
-
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
